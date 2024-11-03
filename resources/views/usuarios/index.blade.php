@@ -13,6 +13,8 @@
     <a href="/" class="btn btn-secondary">Volver</a>
 
     </div>
+
+    
     <div class="hero-image"></div>
 </div>
 @endsection

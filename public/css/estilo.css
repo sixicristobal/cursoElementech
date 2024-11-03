@@ -1,7 +1,8 @@
 .hero-section {
     height: 100vh;
     background-image: url('/images/pngbk.png'); /* Cambia a la ruta de tu imagen */
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     background-position: center;
     display: flex;
     align-items: center;
@@ -37,4 +38,10 @@
     color: black;
     border-radius: 10px;
     padding: 10px;
+}
+.contacto {
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: left;
 }

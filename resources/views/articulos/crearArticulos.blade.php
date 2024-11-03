@@ -4,7 +4,7 @@
 <div class="hero-section">
     <div class="hero-content">
         <div class="container mt-5">
-            <h2>Crear Artículo</h2>
+            <h1>Crear Artículo</h1>
 
             {{-- Mostrar errores de validación --}}
             @if ($errors->any())
@@ -38,6 +38,8 @@
                 </div>
                 
                 <button type="submit" class="btn btn-primary">Crear Artículo</button>
+                
+                <a href="/" class="btn btn-secondary">Volver</a>
             </form>
         </div>
         
